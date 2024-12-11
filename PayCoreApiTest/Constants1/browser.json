@@ -1,0 +1,117 @@
+[
+  {
+    "key": "menuLogin",
+    "value": "//a[@class=\"login-btn-box__login\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "cookieDeny",
+    "value": "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+    "type": "id"
+  },
+  {
+    "key": "18Up",
+    "value": "//*[@id=\"ageControl\"]/div/button[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "accountNumber",
+    "value": "//input[@name=\"username\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "accountPassword",
+    "value": "//input[@name=\"password\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "loginBtn",
+    "value": "login_trk",
+    "type": "id"
+  },
+  {
+    "key": "menuSportsbookActive",
+    "value": "//a[contains(@href,\"sports\") and contains(@class,\"active\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "menuSportsbook",
+    "value": "//a[contains(text(),\"Sportsbook\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "menuLiveBettingActive",
+    "value": "//a[contains(@href,\"live-betting\") and contains(@class,\"active\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "menuCasino",
+    "value": "//a[contains(text(),\"Casino\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "menuCasinoActive",
+    "value": "//a[contains(@href,\"casino\") and contains(@class,\"active\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "miniGameModal",
+    "value": "miniGameContainer",
+    "type": "id"
+  },
+  {
+    "key": "startCasinoMiniGame",
+    "value": "//div[@id=\"casinoMiniGame\"]//img",
+    "type": "xpath"
+  },
+  {
+    "key": "fullscreenBtn",
+    "value": "fullScreen",
+    "type": "id"
+  },
+  {
+    "key": "newTabBtn",
+    "value": "newTab",
+    "type": "id"
+  },
+  {
+    "key": "launchingGameNewTab",
+    "value": "//p[contains(text(), \"Launching the game in a new tab\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "modalYesBtn",
+    "value": "//input[@value=\"YES\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "modalCancelBtn",
+    "value": "//input[@value=\"CANCEL\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "availableBalance",
+    "value": "availableBalance",
+    "type": "id"
+  },
+  {
+    "key": "profileDropdown",
+    "value": "//button[contains(@class,\"gaming-dropdown\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "accountHistory",
+    "value": "//a[@href=\"/history\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "accountHistory_casinoBalance",
+    "value": "//span[text()=\"Casino\"]/following-sibling::span",
+    "type": "xpath"
+  },
+  {
+    "key": "casinoGoldenDragonGame",
+    "value": "//a[contains(@data-game-url,\"name=Golden-Dragon-Inferno\")]",
+    "type": "xpath"
+  }
+]

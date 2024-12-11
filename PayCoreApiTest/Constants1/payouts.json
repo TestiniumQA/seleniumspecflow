@@ -1,0 +1,47 @@
+[
+  {
+    "key": "cashierButton",
+    "value": "//a[contains(text(),'Cashier')]",
+    "type": "xpath"
+  },
+  {
+    "key": "payoutButton",
+    "value": "//a[contains(@class,'cashier-tab')][contains(text(),'payout')]",
+    "type": "xpath"
+  },
+  {
+    "key": "miniGamesModal",
+    "value": "casinoMiniGame",
+    "type": "id"
+  },
+  {
+    "key": "miniGameModalNewTab",
+    "value": "casinoMiniGame",
+    "type": "id"
+  },
+  {
+    "key": "modalNewTabDialog",
+    "value": "//h5[contains(text(),'OPEN GAME')]",
+    "type": "xpath"
+  },
+  {
+    "key": "dialogYesButton",
+    "value": "input[value='YES']",
+    "type": "css"
+  },
+  {
+    "key": "miniGameModalFullScreen",
+    "value": "fullScreen",
+    "type": "id"
+  },
+  {
+    "key": "fullScreenGame",
+    "value": "body[style*='width: 100%; height: 100%']",
+    "type": "css"
+  },
+  {
+    "key": "miniGameCollapseIcon",
+    "value": "em[class*='icon-arrow-up']",
+    "type": "css"
+  }
+]
